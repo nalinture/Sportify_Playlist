@@ -3,10 +3,10 @@ output "playlist_url" {
   description = "Visit this URL in your browser to listen to the playlist"
 }
 
-output "gentleman_song_ids" {
+/*output "gentleman_song_ids" {
   value = data.spotify_track.en_veettu_thottathil_gentleman.id
 }
 
 output "kadhalan_song_ids" {
   value = data.spotify_search_track.by_name.id
-}
+}*/
