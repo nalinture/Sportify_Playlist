@@ -11,6 +11,7 @@ resource "spotify_playlist" "playlist" {
     data.spotify_search_track.by_name.tracks[0].id,
     data.spotify_track.Suthi_suthi.id,
     data.spotify_track.Mathadu_mathadu_mallige.id,
+    data.spotify_track.Thendral_Vanthu.id,    
   ]
 }
 
@@ -39,4 +40,7 @@ data "spotify_track" "Suthi_suthi" {
 }
 data "spotify_track" "Mathadu_mathadu_mallige" {
   url = "https://open.spotify.com/track/3rajhbfUUWiTzSm4WmLOm7?si=b71137d9e31f481f"
+}
+data "spotify_track" "Thendral_Vanthu" {
+  url = "https://open.spotify.com/track/21So81Yl6lkVgNWMs33JtV?si=5d8470ddc2a24b74"
 }
